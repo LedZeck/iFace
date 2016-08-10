@@ -27,8 +27,8 @@ public class IndexOptions {
 					System.out.println("Funcionalidade indisponível nesta versão do iFace.");
 					showOptions();
 				}			
-			}catch(Exception e){
-				System.out.println(e);
+			}catch(Exception InputMismatchException){
+				System.out.println("Por favor, digite uma opção válida.");
 			}
 			
 			if (choice == 5){
